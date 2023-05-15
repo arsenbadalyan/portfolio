@@ -1,19 +1,11 @@
-import './App.css';
-import Content from './Content';
-import Sidebar from './Sidebar';
+import './assets/styles/App.css';
+import LeftSidebar from './components/LeftSidebar/LeftSidebar';
 
-function App() 
+function App()
 {
 	return (
 		<div className="App font-mono">
-            <div className="flex">
-                <div className="w-[20vw]">
-                    <Sidebar/>
-                </div>
-                <div className="w-[80vw]">
-                    <Content/>
-                </div>
-            </div>
+			<LeftSidebar/>
 		</div>
 	);
 }
